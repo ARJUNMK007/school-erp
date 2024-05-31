@@ -3,6 +3,8 @@ import Dashboard from './DashBoard/DashBoard';
 import Sidebar from './DashBoard/Sidebar';
 import Students from './Students/Students';
 import AuthForm from './SignIn/AuthForm';
+import Teachers from './Teacher/Teachers';
+import AddTeacherForm from './AddTeacher/AddTeacherForm';
 
 
 const App = () => {
@@ -10,7 +12,9 @@ const App = () => {
     <div>
       {/* <Dashboard/> */}
       {/* <Students/> */}
-      <AuthForm/>
+      {/* <AuthForm/> */}
+      {/* <Teachers/> */}
+      <AddTeacherForm/>
     </div>
   );
 };

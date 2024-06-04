@@ -2,6 +2,7 @@
 import React from 'react';
 import Sidebar from '../DashBoard/Sidebar';
 import TeacherCard from './TeachersCard';
+import Header from '../Header/Header';
 
 
 const teachers = [
@@ -25,6 +26,7 @@ const Teachers = () => {
       <Sidebar />
       <main className="flex-1 p-6 bg-gray-100">
         <div className="flex justify-between items-center mb-6">
+            <Header/>
           <h1 className="text-2xl font-bold">Teachers</h1>
           <button className="bg-blue-500 text-white py-2 px-4 rounded-lg">+ New Student</button>
         </div>

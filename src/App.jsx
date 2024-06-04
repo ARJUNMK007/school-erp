@@ -5,6 +5,7 @@ import Students from './Students/Students';
 import AuthForm from './SignIn/AuthForm';
 import Teachers from './Teacher/Teachers';
 import AddTeacherForm from './AddTeacher/AddTeacherForm';
+import AddStudent from './AddStudent/AddStudent';
 
 
 const App = () => {
@@ -14,7 +15,9 @@ const App = () => {
       {/* <Students/> */}
       {/* <AuthForm/> */}
       {/* <Teachers/> */}
-      <AddTeacherForm/>
+      {/* <AddTeacherForm/> */}
+      {/* <AddStudent/> */}
+      {/* <Sidebar/> */}
     </div>
   );
 };

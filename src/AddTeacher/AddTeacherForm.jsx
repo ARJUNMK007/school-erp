@@ -1,6 +1,7 @@
 // src/components/AddTeacherForm.js
 import React from 'react';
 import Sidebar from '../DashBoard/Sidebar';
+import Header from '../Header/Header';
 
 const AddTeacherForm = () => {
   return (
@@ -20,8 +21,9 @@ const AddTeacherForm = () => {
         <Sidebar/>
       </aside>
       <main className="flex-1 p-8 bg-gray-100">
+        <Header/>
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">Add New Teacher</h2>
+        
           <form>
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4 text-blue-900">Personal Details</h3>
